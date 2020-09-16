@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li{
+    font-size:20px;
+}
+/*Sirve para selecionar un elemento en concreto de la lista (3,4 etc)*/
+ul li:nth-child(2){
+    color: yellow;
+}
+ul li:last-child{
+    color: grey;
+
+}
+/*SELECIONA EL PRIMERO DE LA LISTA*/
+/*
+ul li:first-child{
+    color: purple;
+    font-weight: bold;
+}
+*/
+#mi-enlace{
+    font-size: 30px;
+    color: darkcyan;
+}
+/*Link sirve para poner de color enlaces que aun no son visitados*/
+#mi-enlace:link{
+    color:red;
+}
+/*Visited cambia el color a enlaces visitados*/
+#mi-enlace:visited{
+    color:red;
+}
+
+#mi-enlace:hover{
+    color: darkcyan;
+}
+#mi-enlace:active{
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+}
+input[type="text"]:focus{
+    border: 4px dashed red;
+}

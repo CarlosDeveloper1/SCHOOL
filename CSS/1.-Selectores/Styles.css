@@ -1,0 +1,105 @@
+/* SELECTORES */
+
+/*SELECTOR UNIVERSAL
+{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0px;
+   padding: 0px;
+}*/
+/* SELECTOR DE ETIQUETA */
+h1{
+    background: red;
+    color: white;
+    padding: 10px;
+}
+a{
+    font-size: 20px;
+    color: yellowgreen;
+    text-decoration: none;
+}
+footer a{
+    color: red;
+}
+/* SELECTOR DE ID */
+#Descripcion,
+#Titulo{
+    border: 5px solid black;
+    padding: 15px;
+}
+#Titulo{
+    background:blue;
+    border: 2px dashed white;
+}
+
+/* SELECTOR DE CLASE  */
+
+.Parrafo{
+    font-style: italic;
+   /* text-decoration: underline;*/
+    font-weight: bold;
+}
+.Parrafo1,.Parrafo2{
+    background-color:yellow;
+    color: black;
+    padding: 10px;
+    font: bold;
+}
+/* SELECTOR DE ATRIBUTO */
+#Usuario form{
+    border: 5px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+#Usuario form *{
+    display: block;
+}
+
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 300px;
+}
+input[type="submit"]{
+    background: green;
+    color: white;
+    padding:15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+/*SELECTOR HIJO*/
+#menu >li> a{
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+}
+
+/* PRIORIDAD */
+#saludo  h1{
+    background: brown;
+}
+h1{
+    background: purple !important;
+}
+
+
+/*
+
+body{
+    background:grey;
+}
+h1 {
+    color: red;
+    font-size: 50px;
+    text-shadow: 0px 0px 10px black;
+    text-decoration: underline;
+}
+footer{
+    color: black;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px black;
+    text-decoration: overline;
+}
+/*

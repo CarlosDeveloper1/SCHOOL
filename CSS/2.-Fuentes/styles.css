@@ -1,0 +1,37 @@
+/*Fuentes Personalizadas*/
+@font-face {
+    font-family: Krona_OneCustom;
+    src: url(fonts/Krona_One/KronaOne-Regular.ttf);
+}
+body{
+    background-color: rgba(52, 78, 108, 0.4);
+}
+h1{
+    font-family: 'Krona One', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 45px;
+
+    /*COLORES*/
+    color: aqua;
+    /*COLORES DEL SISTEMA* https://www.w3schools.com/w3css/w3css_colors.asp/
+    /*COLORES HEXADECIMALES*/
+    color: #cccccc;
+    color: #ffffff;
+    color: #000000;
+    color: #3B5998;
+    /*COLORES RGB* https://www.css3maker.com//
+    /*COLORES RGBA* https://www.css3maker.com*/
+}
+h3{
+    font-family: Krona_OneCustom, "Comic Sans MS";
+    font-size: 25px;
+    font-weight: lighter;
+    color: teal;
+}
+P{
+    font-family: 'Krona One', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}

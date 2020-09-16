@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+    background-image: url("img/fondo.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position:left bottom ;
+    text-align: justify;
+}
+#caja{
+    border: 5px solid black;
+    padding: 10px;
+    color: crimson;
+    background-color:#ccc;
+    font-family: 'Leckerli One', cursive;
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    vertical-align: top;
+}
